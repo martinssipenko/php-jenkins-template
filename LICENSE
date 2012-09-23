@@ -1,6 +1,6 @@
-Template for Jenkins Jobs for PHP Projects
+Template for Jenkins Jobs for WordPress Plugins
 
-Copyright (c) 2010-2012, Sebastian Bergmann <sebastian@phpunit.de>.
+Copyright (c) 2010-2012, Sebastian Bergmann <sebastian@phpunit.de>, Martins Sipenko <martins.sipenko@gmail.com>.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without

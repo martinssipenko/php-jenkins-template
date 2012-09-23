@@ -327,6 +327,7 @@
         </hudson.plugins.plot.Plot>
       </plots>
     </hudson.plugins.plot.PlotPublisher>
+	<!--
     <org.jenkinsci.plugins.cloverphp.CloverPublisher>
       <publishHtmlReport>true</publishHtmlReport>
       <reportDir>build/coverage</reportDir>
@@ -339,6 +340,7 @@
       <unhealthyTarget/>
       <failingTarget/>
     </org.jenkinsci.plugins.cloverphp.CloverPublisher>
+	-->
     <htmlpublisher.HtmlPublisher>
       <reportTargets>
         <htmlpublisher.HtmlPublisherTarget>
@@ -382,9 +384,11 @@
       </thresholds>
       <thresholdMode>1</thresholdMode>
     </xunit>
+	<!--
     <hudson.plugins.jdepend.JDependRecorder>
       <configuredJDependFile>build/logs/jdepend.xml</configuredJDependFile>
     </hudson.plugins.jdepend.JDependRecorder>
+	-->
     <hudson.plugins.violations.ViolationsPublisher>
       <config>
         <suppressions class="tree-set">
